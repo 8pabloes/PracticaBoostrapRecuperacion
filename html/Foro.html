@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FlashScore - Favoritos</title>
+    <title>Foro de Fútbol</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
@@ -13,7 +13,7 @@
                 <img src="/img/fubol.jpg" alt="Logo" class="img-fluid">
             </div>
             <div class="col-md-6 text-center">
-                <h1>Favoritos</h1>
+                <h1>Foro de Fútbol</h1>
             </div>
             <div class="col-md-4 text-right">
                 <img src="/img/lupa.png" alt="Ajustes" class="img-fluid img-thumbnail w-25">
@@ -23,64 +23,68 @@
         </div>
     </header>
 
+    <!-- Contenido del foro -->
     <section class="container mt-4">
         <div class="row">
-            <div class="col-md-12 text-center">
-                <h2>TODOS LOS PARTIDOS</h2>
+            <div class="col-md-12">
+                <h2>Últimos comentarios</h2>
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <h5 class="card-title">SoccerFan123</h5>
+                        <img src="/img/avatar.webp" alt="Avatar" class="img-fluid rounded-circle" style="width: 50px;">
+                        <p class="card-text">¡Qué partido tan emocionante! ¿Alguien más vio el golazo en el minuto 90?</p>
+                    </div>
+                </div>
+                
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <h5 class="card-title">GoalHunter22</h5>
+                        <img src="/img/avatar.webp" alt="Avatar" class="img-fluid rounded-circle" style="width: 50px;">
+                        <p class="card-text">Me parece que el equipo visitante merecía ganar, jugaron con mucha determinación.</p>
+                    </div>
+                </div>
+                
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <h5 class="card-title">SoccerLover99</h5>
+                        <img src="/img/avatar.webp" alt="Avatar" class="img-fluid rounded-circle" style="width: 50px;">
+                        <p class="card-text">Increíble jugada táctica del equipo local. ¡Eso es lo que llamo trabajo en equipo!</p>
+                    </div>
+                </div>
+                
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <h5 class="card-title">FootballFanatic87</h5>
+                        <img src="/img/avatar.webp" alt="Avatar" class="img-fluid rounded-circle" style="width: 50px;">
+                        <p class="card-text">El árbitro estuvo bastante cuestionable hoy, ¿no creen?</p>
+                    </div>
+                </div>
+                
+
             </div>
         </div>
     </section>
 
-    <section class="container mt-4">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <h3>16.04</h3>
-            </div>
-        </div>
-    </section>
-
-    <section class="container mt-4">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <h3>España: Primera RFEF - Grupo 3</h3>
-            </div>
-        </div>
-    </section>
 
     <section class="container mt-4">
         <div class="row">
             <div class="col-md-12">
-                <div class="card">
-                    <div class="card-body">
-                        <h4>Deportivo de la Coruña vs. Arenteiro</h4>
-                        <p>El Deportivo jugandose el ascenso...</p>
+                <h2>Enviar consulta o noticia</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="nombreUsuario">Nombre de Usuario</label>
+                        <input type="text" class="form-control" id="nombreUsuario" placeholder="Ingrese su nombre de usuario">
                     </div>
-                </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" rows="3" placeholder="Escriba su mensaje aquí"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
             </div>
         </div>
     </section>
 
-    <section class="container mt-4">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <h1>Noticia Destacada</h1>
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="2000">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="/img/yeremay.webp" class="d-block w-100" alt="Yeremay">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="/img/yeremay2.jpg" class="d-block w-100" alt="Yeremay 2">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="/img/yeremay3.jpg" class="d-block w-100" alt="Yeremay 3">
-                        </div>
-                    </div>
-                </div>
-                <p>Yeremay siente una ligera molestia y no se sabe si estará para el partido.</p>
-            </div>
-        </div>
-    </section>
 
     <footer class="container mt-4 mb-4">
         <div class="row justify-content-center">
